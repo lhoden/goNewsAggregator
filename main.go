@@ -92,7 +92,7 @@ func main() {
 
 func init() {
 	opts := renderer.Options{
-		ParseGlobPattern: "src/github.com/lhoden/goNewsAggregator/tpl/*.html",
+		ParseGlobPattern: "github.com/lhoden/goNewsAggregator/tpl/*.html",
 	}
 
 	rnd = renderer.New(opts)
