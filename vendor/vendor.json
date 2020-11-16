@@ -2,5 +2,9 @@
 	"comment": "",
 	"ignore": "test",
 	"package": [],
-	"rootPath": "github.com/lhoden/goNewsAggregator"
+	"rootPath": "github.com/lhoden/goNewsAggregator",
+	"heroku": {
+        "install" : [ "./..." ],
+        "goVersion": "go1.9"
+    }
 }
