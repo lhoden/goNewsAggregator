@@ -1,0 +1,3 @@
+package: github.com/lhoden/goNewsAggregator
+import:
+- package: github.com/thedevsaddam/renderer

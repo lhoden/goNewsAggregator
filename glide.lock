@@ -1,0 +1,8 @@
+hash: 9140175cab53bbf6a00edaf9c82a3e63143b8fe73e8eb507c2336f610d6d81f8
+updated: 2020-11-16T03:52:17.8741672-05:00
+imports:
+- name: github.com/thedevsaddam/renderer
+  version: 50d2f6151f9d45c16f127596b4cc9be4e5a66b3e
+- name: gopkg.in/yaml.v2
+  version: 0b1645d91e851e735d3e23330303ce81f70adbe3
+testImports: []
