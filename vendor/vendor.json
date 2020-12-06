@@ -1,6 +1,10 @@
 {
 	"comment": "",
 	"ignore": "test",
+	"heroku": {
+		"install": [ "./..." ],
+		"goVersion": "1.15.4"
+	},
 	"package": [
 		{
 			"path": "goNewsAggregator",
