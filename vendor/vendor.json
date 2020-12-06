@@ -1,6 +1,11 @@
 {
 	"comment": "",
 	"ignore": "test",
-	"package": [],
+	"package": [
+		{
+			"path": "goNewsAggregator",
+			"revision": ""
+		}
+	],
 	"rootPath": "github.com/lhoden/goNewsAggregator"
 }
