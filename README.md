@@ -9,5 +9,7 @@ Clone git repo to GOPATH
 
 Run in terminal
 ```console
-go run goNewsAggregator
+$ go run goNewsAggregator
 ```
+
+Establish a connection to the server at localhost:4000
