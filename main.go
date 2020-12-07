@@ -4,7 +4,6 @@ import (
 	"encoding/xml"
 	"io/ioutil"
 	"net/http"
-	"os"
 	"strings"
 	"sync"
 
@@ -87,11 +86,8 @@ func newsAggHandler(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 
-	port := os.Getenv(":PORT")
-
 	http.HandleFunc("/", newsAggHandler)
-	// http.ListenAndServe(":4000", nil)
-	http.ListenAndServe(port, nil)
+	http.ListenAndServe(":4000", nil)
 }
 
 func init() {
