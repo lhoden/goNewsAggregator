@@ -87,7 +87,7 @@ func newsAggHandler(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 
-	port := os.Getenv("PORT")
+	port := os.Getenv(":PORT")
 
 	http.HandleFunc("/", newsAggHandler)
 	// http.ListenAndServe(":4000", nil)
